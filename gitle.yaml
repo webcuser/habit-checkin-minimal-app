@@ -1,0 +1,13 @@
+{
+  "env": {
+    "API_URL": "localhost"
+  },
+  "run": "npm start",
+  "port": 3002,
+  "setup": "npm install --legacy-peer-deps",
+  "services": [
+    "redis",
+    "mysql"
+  ],
+  "autoPreview": true
+}
