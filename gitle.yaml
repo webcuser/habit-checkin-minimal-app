@@ -1,6 +1,9 @@
 {
-  "run": "npx expo start --port 8083",
-  "port": 8083,
+  "env": {
+    "DATABASE_URL": "localhost"
+  },
+  "run": "npx expo start --port 8081",
+  "port": 8081,
   "setup": "npm install --legacy-peer-deps",
   "services": [
     "redis",
