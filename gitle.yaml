@@ -5,5 +5,6 @@
   "services": [
     "redis",
     "mysql"
-  ]
+  ],
+  "autoPreview": true
 }
